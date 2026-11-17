@@ -9,6 +9,9 @@ Dependencies:
  - CUDA (if on nvidia, recommended)
  - pytorch
 
+Defaults to pet-mad-1.6 (r2SCAN), but more found at:
 https://lab-cosmo.github.io/upet/latest/
+
+To use, clone repo, run `uv sync`, then `uv run ase-pes-example`
 
 
