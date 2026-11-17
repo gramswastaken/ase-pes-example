@@ -1,0 +1,20 @@
+[project]
+name = "ase-pes-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "GrahamSpellman", email = "graham.spellman99@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ase>=3.29.0",
+    "upet>=0.3.1",
+]
+
+[project.scripts]
+ase-pes-example = "ase_pes_example:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
